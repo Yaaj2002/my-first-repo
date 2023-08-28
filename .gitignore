@@ -1,9 +1,5 @@
 # env
 .env*
 
-# files
-*.css
-*.js
-
 # misc
 .vscode
