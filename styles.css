@@ -16,6 +16,7 @@ body {
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .box {
   display: flex;
   flex-direction: column;
@@ -26,6 +27,7 @@ body {
   height: 350px;
   background: #fff;
 }
+
 .box::before {
   content: "";
   position: absolute;
@@ -37,6 +39,7 @@ body {
   border-radius: 5px;
   transform: skewX(2deg) skewY(4deg);
 }
+
 .box::after {
   content: "";
   position: absolute;
@@ -47,6 +50,7 @@ body {
   background: linear-gradient(315deg, #D95252, #D95252);
   transform: skewX(2deg) skewY(2deg);
 }
+
 .box span {
   position: absolute;
   top: 0;
@@ -56,13 +60,16 @@ body {
   background: #282c34;
   z-index: 10;
 }
-h2, h3 {
+
+h2,
+h3 {
   position: relative;
   color: #fff;
   font-size: 2em;
   z-index: 11;
   margin: 0;
 }
+
 .box h3 {
   font-size: 1.25em;
   transition: ease-in-out 0.3s;
@@ -72,9 +79,8 @@ ul {
   display: flex;
   justify-content: center;
   margin: 0;
-  padding: 0; 
+  padding: 0;
 }
-
 
 ul li {
   list-style: none;
@@ -86,10 +92,16 @@ ul li {
 }
 
 @keyframes grow {
-  0% ,
-  40% ,
-  100% { transform:scale(0.2); }
-  20% { transform:scale(1); }
+
+  0%,
+  40%,
+  100% {
+    transform: scale(0.2);
+  }
+
+  20% {
+    transform: scale(1);
+  }
 }
 
 ul li:nth-child(1) {
@@ -120,8 +132,9 @@ ul li:nth-child(5) {
   animation-delay: -0.6s;
   background: #ba68c8;
   box-shadow: 0 0 50px #ba68c8;
-  
+
 }
+
 ul li:nth-child(6) {
   animation-delay: -0.4s;
   background: #f57c00;
@@ -133,6 +146,7 @@ ul li:nth-child(7) {
   background: #673ab7;
   box-shadow: 0 0 50px #673ab7;
 }
+
 /* ul li:nth-child(7) {
   animation-delay: -0.2s;
   background: #673ab7;
