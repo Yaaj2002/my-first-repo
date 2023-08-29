@@ -5,11 +5,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h2 {
+/* h2 {
   text-align: center;
   color: white;
   margin-top: 70px;
-}
+} */
 
 .app-body {
   text-align: center;
@@ -77,8 +77,8 @@ h2, h3 {
 ul {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
+  /* align-items: center; */
+  /* height: 100vh; */
   margin: 0;
   padding: 0; 
 }
@@ -140,7 +140,7 @@ ul li:nth-child(7) {
   background: #673ab7;
   box-shadow: 0 0 50px #673ab7;
 }
-ul li:nth-child(7) {
+/* ul li:nth-child(7) {
   animation-delay: -0.2s;
   background: #673ab7;
   box-shadow: 0 0 50px #673ab7;
@@ -154,4 +154,4 @@ ul li:nth-child(7) {
   animation-delay: -0.2s;
   background: #673ab7;
   box-shadow: 0 0 50px #673ab7;
-}
+} */
